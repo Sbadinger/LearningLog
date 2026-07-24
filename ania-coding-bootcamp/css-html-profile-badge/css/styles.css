@@ -1,0 +1,59 @@
+body{
+    background-image: url(../images/pexels-lin-2156561570-34309247.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+
+.badge {
+    width: 260px;
+    background-image: radial-gradient( white, rgb(243, 193, 234));
+    margin: 100px auto;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(40, 39, 39);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px, 
+    rgba(0,0,0,0.3) 0 1px 3px -1px;
+
+}
+.badge hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(0,0,0);
+    margin: 1px;
+}
+
+.badge img{
+    width: 100px;
+    border-radius: 50px;
+
+}
+
+.badge a {
+    display: inline-block;
+    color: rgb(226, 1, 144);
+    margin: 10px;
+    text-decoration: none;
+}
+
+.badge a:hover {
+    color: rgb(40, 39, 39);
+}
+
+
+.badge #email {
+    color: rgb(58, 34, 120);
+}
+
+.badge #email:hover {
+    color: rgb(40, 39, 39);
+}
+
+
+
